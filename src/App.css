@@ -57,3 +57,48 @@ body{
 .status{
   float:right;
 }
+
+.filter{
+  float:right;
+  padding:10px;
+  margin:20px;
+  border-radius: 10%;
+  background-color:hotpink;
+}
+.filterItem-all{
+  padding:2px;
+  margin:20px;
+  text-decoration:none;
+  text-align:center;
+  width:100%;
+  color:black;
+  background-color: indianred;
+}
+.filterItem-success{
+  padding:2px;
+  margin:20px;
+  text-decoration:none;
+  text-align:center;
+  width:50%;
+  color:black;
+  background-color: green;
+}
+
+.filterItem-upcoming{
+  padding:2px;
+  margin:20px;
+  text-decoration:none;
+  text-align:center;
+  width:50%;
+  color:black;
+  background-color: yellow;
+}
+.filterItem-failure{
+  padding:2px;
+  margin:20px;
+  text-decoration:none;
+  text-align:center;
+  width:50%;
+  color:black;
+  background-color: orange;
+}
